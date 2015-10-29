@@ -20,3 +20,14 @@ sshでrootに接続（パスワード変更）
 
 ###.ssh にgithubに接続できるキーを配置
 ###vimとgitをインストール
+###dotfiles をclone
+
+    $ git clone git@github.com:calltella/dotfiles.git
+
+###リンクを張る
+
+    $ ln -Fis ~/dotfiles/.vimrc ~/.vimrc
+    $ ln -Fis ~/dotfiles/.bashrc ~/.bashrc
+    $ ln -Fis ~/dotfiles/vimfiles ~/.vim
+
+###適当なファイルをvimで開くとプラグインのインストールが始まる
